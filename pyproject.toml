@@ -1,0 +1,20 @@
+[project]
+name = "calibrate-lens"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pillow>=12.0.0",
+    "pyephem-sunpath>=0.2.2",
+    "pygeometry2d>=1.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.12.0",
+    "mypy>=1.19.1",
+    "notebook>=7.5.1",
+    "pytest>=9.0.2",
+    "ruff>=0.14.10",
+]
